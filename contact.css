@@ -1,15 +1,14 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: rgb(254, 223, 206);
+    background: url(img2/bg5.jpg) no-repeat center;
+    background-size: cover;
 }
 .row {
   display: flex;
   flex-wrap: wrap;
 }
 .ct-container {
-  background: url(img2/bg5.jpg) no-repeat center;
-  background-size: cover;
   position: relative;
   z-index: -1;
 }

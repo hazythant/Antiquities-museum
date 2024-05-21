@@ -97,9 +97,13 @@ h2 {
     border-radius: 8px;
     font-family: "Teachers", sans-serif;
     width: 450px;
-    height: 300px;
+    height: fit-content;
     padding: 30px;
     margin: 15px;
+}
+.textbox:hover {
+    background-color: rgb(112, 27, 27);
+    color: white;
 }
 
 .pc-box {
