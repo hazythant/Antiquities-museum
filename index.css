@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(254, 223, 206);
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.header {
+    background: url(img2/bg1.jpg) no-repeat center;
+    background-size: cover;
+    height: 550px;
+    position: relative;
+    margin-bottom: 80px;
+    color: white;
+    animation-name: header_bg;
+    animation-duration: 20s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    z-index: -1;
+}
+@keyframes header_bg {
+    0% {background: url(img2/bg1.jpg) no-repeat center; background-size: cover;}
+    25% {background: url(img2/bg2.jpg) no-repeat center; background-size: cover;}
+    50% {background: url(img2/bg4.jpg) no-repeat center; background-size: cover;}
+    75% {background: url(img2/dwl2.jpg) no-repeat center; background-size: cover;}
+    100% { background: url(img2/bg1.jpg) no-repeat center; background-size: cover;}
+}
+.header-box {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.652);
+    border-radius: 10px;
+    text-align: center;
+    width: 45%;
+    height: fit-content;
+    padding: 10px;
+    top: 110px;
+    left: 40px;
+}
+@media only screen and (max-width:786px) {
+    .header-box {
+        top: 60px;
+        left: 30px;
+        width: 90%;
+    }
+}
+.website-name {
+    font-family:  "PT Serif", serif;
+    font-size: 38px;
+}
+.headingp {
+    font-family: "Teachers", sans-serif;
+    font-size: 18px;
+}
+button {
+    background-color: rgb(254, 223, 206);
+    width: 150px;
+    padding: 8px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    border: 1px rgb(248, 201, 186) solid;
+    border-radius: 8px 8px 0px 8px;
+    font-size: 17px;
+    font-family: "Teachers", sans-serif;
+}
+button:hover {
+    background-color: rgb(112, 27, 27);
+    border: 2px rgb(112, 27, 27) solid;
+    box-shadow: 5px 3px 4px rgb(53, 53, 53);
+    padding: 10px;
+}
+.exploremore {
+    text-decoration: none;
+    color: black;
+}
+button:hover .exploremore{
+    color: white;
+}
+
+.col-box {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 7%;
+    text-align: center;
+}
+h2 {
+    font-family:  "PT Serif", serif;
+    font-weight: bold;
+}
+.textbox {
+    background-color: rgb(248, 201, 186);
+    border-radius: 8px;
+    font-family: "Teachers", sans-serif;
+    width: 450px;
+    height: 300px;
+    padding: 30px;
+    margin: 15px;
+}
+
+.pc-box {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(248, 201, 186);
+    border-radius: 8px;
+    width: 95%;
+    padding: 20px;
+    margin: auto;
+    text-align: center;
+}
+.img1 {
+    width: 100%;
+    border-radius: 8px;
+}
+.pc-box-p {
+    font-size: 18px;
+    font-family: "Teachers", sans-serif;
+}

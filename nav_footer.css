@@ -1,0 +1,247 @@
+/*Nav Start*/
+nav {
+    background-color: rgb(100, 30, 57);
+    height: 100px;
+    box-shadow: 6px 0 6px rgb(64, 64, 64);
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+.nav-box {
+    float: right;
+    height: fit-content;
+}
+nav a .logo {
+    width: 70px;
+    color: white;
+    margin-top: 15px;
+    margin-left: 60px;
+    padding: 0;
+    float: left;
+}
+nav ul li {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+nav ul li a {
+    text-decoration: none;
+    text-align: center;
+    line-height: 75px;
+    font-size: 22px;
+    font-family: Outfit;
+    color: white;
+    background-color: none;
+    padding-bottom: 25px;
+    margin-right: 80px;
+    border-bottom: 2px solid transparent;
+}
+nav ul li .category {
+    text-decoration: none;
+    text-align: center;
+    line-height: 75px;
+    font-size: 22px;
+    font-family: Outfit;
+    color: white;
+    background-color: none;
+    padding-bottom: 25px;
+    margin: 0;
+    border-bottom: 2px solid transparent;
+}
+.nav-box a:hover   {
+    border-bottom: 2px solid rgb(254, 223, 206);
+}
+.checkbt {
+    float: right;
+    color: white;
+    font-size: 40px;
+    margin-right:5%;
+    line-height: 120px;
+    display: none;
+}
+#check-box {
+    display: none;
+}
+
+nav .category-button {
+    position: relative;
+    font-size: 16px;
+    color: white;
+    margin-right: 60px;
+}
+nav .category-menu-box {
+    position: absolute;
+    left: 72%;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.711);
+    min-width: 140px;
+    height: fit-content;
+    padding: 0;
+    display: none;
+    z-index: 1;
+}
+nav .category-menu-box .category-menu1 {
+    font-size: 18px;
+    text-align: left;
+    display: block;
+    margin: 0;
+    padding: 0 40px;
+    border: 0;
+    border-radius: 10px 10px 0 0;
+    z-index: 1;
+}
+nav .category-menu-box .category-menu2 {
+    font-size: 18px;
+    text-align: left;
+    display: block;
+    margin: 0;
+    padding: 0 40px;
+    border: 0;
+    z-index: 1;
+}
+nav .category-menu-box .category-menu3 {
+    font-size: 18px;
+    text-align: left;
+    display: block;
+    margin: 0;
+    padding: 0 40px;
+    border: 0;
+    border-radius: 0 0 10px 10px;
+    z-index: 1;
+}
+.category-menu1:hover {
+    background-color: rgb(144, 12, 63);
+}
+.category-menu2:hover {
+    background-color: rgb(144, 12, 63);
+}
+.category-menu3:hover {
+    background-color: rgb(144, 12, 63);
+}
+
+#categroybox {
+    display: none;
+}
+#categroybox:checked ~ .category-menu-box {
+    display: block;
+}
+
+@media only screen and (max-width:768px) {
+    .checkbt {
+        display:block;
+    }
+    nav a .logo {
+        margin-top: 15px;
+        margin-left: 30px;
+    }
+    .nav-box {
+        margin: 0;
+        float: left;
+        width: 360px;
+        position: absolute;
+        z-index: 1;
+    }
+    .nav-box ul {
+        background-color: rgba(144, 12, 63, 0.582);
+        margin-top: -100px;
+        margin-left: -100%;
+        padding: 40px 40px;
+    }
+    .nav-box ul li {
+        display: none;
+        text-align: left;
+    }.nav-box ul li a {
+        padding: 0;
+        text-decoration: none;
+        font-size: 20px;
+        font-family: Outfit;
+        color: white;
+    }
+    #check-box:checked ~ .nav-box ul li{
+        display: block;
+    }
+    #check-box:checked ~ .nav-box ul{
+        margin-top: 100px;
+        margin-left: 0;
+    }
+    .category-button {
+        display: none;
+    }
+}
+/*Nav End*/
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*Footer*/
+footer {
+    background-color: rgb(100, 30, 57);
+    height: fit-content;
+    color: white;
+    margin-top: 10%;
+}
+.footer-row {
+    width: 100%;
+    padding: 40px;
+}
+.logo-container {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}
+.f-logo {
+    width: 45%;
+}.f-logo-name {
+    font-family:  "PT Serif", serif;
+}
+.f-header {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: wheat;
+}
+.pages-container {
+    width: 100%;
+    padding-left: 40%;
+    justify-content: center;
+}
+.pages-container a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-family: "Teachers", sans-serif;
+    font-size: 18px;
+}
+.pages-container a:hover {
+    text-decoration: underline;
+}
+.contact-container {
+    width: 100%;
+    padding-left: 30%;
+    justify-content: center;
+}
+.f-icon-box {
+    font-size: 18px;
+    font-family: "Teachers", sans-serif;
+}
+.f-icon1 {
+    font-size: 20px;
+    padding-right: 5px;
+    color: blue;
+}
+.f-icon2 {
+    font-size: 19px;
+    padding: 10px 60px 0 0;
+    color: blue;
+}
+.copyright {
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding: 15px 0;
+    margin: 0;
+}
+/*Footer End*/

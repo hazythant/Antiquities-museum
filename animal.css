@@ -1,0 +1,197 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(254, 223, 206);
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.af-row {
+    width: 100%;
+    position: relative;
+}
+.af-row2 {
+    width: 100%;
+    position: relative;
+}
+.img {
+    width: 100%;
+    height: 300px;
+    border-radius: 10px 10px 0 0;
+}
+.item1  {
+    width: 90%;
+    background-color:rgb(100, 30, 57);
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 9px 0 black;
+    margin: 20px 20px;
+}
+.item2  {
+    width: 90%;
+    background-color:rgb(100, 30, 57);
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 9px 0 black;
+    margin: 20px 20px;
+}
+.item1:hover {
+    background-color: rgb(248, 194, 175);
+    color: rgb(100, 30, 57);
+}
+.item2:hover {
+    background-color: rgb(248, 194, 175);
+    color: rgb(100, 30, 57);
+}
+.item1:hover .text-box {
+    color: rgb(100, 30, 57);
+}
+.item2:hover .text-box {
+    color: rgb(100, 30, 57);
+}
+.item1:hover .af-rm{
+    color: rgb(70, 22, 40);
+    font-weight: bold;
+}
+.item2:hover .af-rm{
+    color: rgb(70, 22, 40);
+    font-weight: bold;
+}
+
+/*check 1*/
+#af-check {
+    display: none;
+}
+.af-readmore {
+    display: inline-block;
+    text-decoration: none;
+    color: wheat;
+    font-family: "Teachers", sans-serif;
+    font-weight: bold;
+}
+.af-span {
+    display: none;
+    font-family: "Teachers", sans-serif;
+}
+#af-check:checked ~ .af-span {
+    display: block;
+}
+#af-check:checked ~ .af-readmore {
+    display: none;
+}
+/*check 2*/
+#af-check2 {
+    display: none;
+}
+.af-readmore2 {
+    display: inline-block;
+    text-decoration: none;
+    color: wheat;
+    font-family: "Teachers", sans-serif;
+    font-weight: bold;
+}
+.af-span2 {
+    display: none;
+    font-family: "Teachers", sans-serif;
+}
+#af-check2:checked ~ .af-span2 {
+    display: block;
+}
+#af-check2:checked ~ .af-readmore2 {
+    display: none;
+}
+/*check 3*/
+#af-check3 {
+    display: none;
+}
+.af-readmore3 {
+    display: inline-block;
+    text-decoration: none;
+    color: wheat;
+    font-family: "Teachers", sans-serif;
+    font-weight: bold;
+}
+.af-span3 {
+    display: none;
+    font-family: "Teachers", sans-serif;
+}
+#af-check3:checked ~ .af-span3 {
+    display: block;
+}
+#af-check3:checked ~ .af-readmore3 {
+    display: none;
+}
+/*check 4*/
+#af-check4 {
+    display: none;
+}
+.af-readmore4 {
+    display: inline-block;
+    text-decoration: none;
+    color: wheat;
+    font-family: "Teachers", sans-serif;
+    font-weight: bold;
+}
+.af-span4 {
+    display: none;
+    font-family: "Teachers", sans-serif;
+}
+#af-check4:checked ~ .af-span4 {
+    display: block;
+}
+#af-check4:checked ~ .af-readmore4 {
+    display: none;
+}
+/*check 5*/
+#af-check5 {
+    display: none;
+}
+.af-readmore5 {
+    display: inline-block;
+    text-decoration: none;
+    color: wheat;
+    font-family: "Teachers", sans-serif;
+    font-weight: bold;
+}
+.af-span5 {
+    display: none;
+    font-family: "Teachers", sans-serif;
+}
+#af-check5:checked ~ .af-span5 {
+    display: block;
+}
+#af-check5:checked ~ .af-readmore5 {
+    display: none;
+}
+/*check6*/
+#af-check6 {
+    display: none;
+}
+.af-readmore6 {
+    display: inline-block;
+    text-decoration: none;
+    color: wheat;
+    font-family: "Teachers", sans-serif;
+    font-weight: bold;
+}
+.af-span6 {
+    display: none;
+    font-family: "Teachers", sans-serif;
+}
+#af-check6:checked ~ .af-span6 {
+    display: block;
+}
+#af-check6:checked ~ .af-readmore6 {
+    display: none;
+}
+.text-box {
+    padding: 10px;
+    color: white;
+}
+.af-h3 {
+    font-family: "PT Serif", serif;
+}
+.af-p {
+    font-family: "Teachers", sans-serif;
+}

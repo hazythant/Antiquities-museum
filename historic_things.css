@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(254, 223, 206);
+  }
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .ht-row {
+    padding: 0;
+    margin: 0;
+  }
+  .ht-col {
+    margin: 30px;
+    background-color:rgb(100, 30, 57);
+    box-shadow: 5px 4px 5px grey;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    height: fit-content;
+  }
+  .ht-col:hover {
+    background-color: rgb(248, 194, 175);
+    color: rgb(100, 30, 57);
+  }
+  .ht-col:hover .ht-readmore {
+    color: rgb(70, 22, 40);
+  }
+  .htimg {
+    border-radius: 10px 0 0 10px;
+  }
+  .h2-header {
+    font-family:  "PT Serif", serif;
+  }
+  .ht-p {
+    font-family: "Teachers", sans-serif ;
+    font-size: 15px;
+  }
+  .ht-span {
+    display: none;
+    z-index: 1;
+  }
+
+  #ht-check {
+    display: none;
+  }
+  .ht-readmore {
+    display: inline-block;
+    text-decoration: none;
+    color: wheat;
+    font-family: "Teachers", sans-serif;
+    font-weight: bold;
+  }
+  .ht-span {
+    display: none;
+  }
+  #ht-check:checked ~ .ht-span {
+    display: block;
+  }
+  #ht-check:checked ~ .ht-readmore {
+    display: none;
+  }
