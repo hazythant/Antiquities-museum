@@ -19,7 +19,6 @@ body {
     animation-delay: 2s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
-    z-index: -1;
 }
 @keyframes header_bg {
     0% {background: url(img2/bg1.jpg) no-repeat center; background-size: cover;}
@@ -54,7 +53,7 @@ body {
     font-family: "Teachers", sans-serif;
     font-size: 18px;
 }
-button {
+.home-button {
     background-color: rgb(254, 223, 206);
     width: 150px;
     padding: 8px;
@@ -65,7 +64,7 @@ button {
     font-size: 17px;
     font-family: "Teachers", sans-serif;
 }
-button:hover {
+.home-button:hover {
     background-color: rgb(112, 27, 27);
     border: 2px rgb(112, 27, 27) solid;
     box-shadow: 5px 3px 4px rgb(53, 53, 53);

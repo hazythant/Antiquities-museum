@@ -10,7 +10,6 @@ body {
 }
 .ct-container {
   position: relative;
-  z-index: -1;
 }
 .ct-row {
   width: 100%;
